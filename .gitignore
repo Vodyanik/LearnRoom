@@ -1,3 +1,4 @@
 /vendor/
 .osp
 .idea
+./composer.lock
