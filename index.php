@@ -11,3 +11,4 @@ require_once 'vendor/autoload.php';
 // git push -u origin branch_name        отправить ветку в репозиторий
 
 echo '<a href="/7/2.php">7.2</a><br>';
+echo '<a href="/7/3.php">7.3</a><br>';
