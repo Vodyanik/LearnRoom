@@ -17,4 +17,4 @@ for ($i = $a; $i < $b; $i++) {
 		$sum += $i;
 	}
 }
-	echo $sum;
+echo $sum;
