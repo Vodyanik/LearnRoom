@@ -12,3 +12,4 @@ require_once 'vendor/autoload.php';
 
 echo '<a href="/7/2.php">7.2</a><br>';
 echo '<a href="/7/3.php">7.3</a><br>';
+echo '<a href="/7/4.php">7.4</a><br>';
