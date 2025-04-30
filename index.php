@@ -9,7 +9,7 @@ require_once 'vendor/autoload.php';
 // git add .                             класть все изменения в коробочку
 // git commit -m "Example comment"       закрываем коробочку и подписываем её
 // git push -u origin branch_name        отправить ветку в репозиторий (только первый раз когда создаем ветку)
-// git push -u origin branch_name        отправить ветку в репозиторий (когда ветка существует)
+// git push                              отправить ветку в репозиторий (когда ветка существует)
 
 echo '<a href="/7/2.php">7_2</a><br>';
 echo '<a href="/7/3.php">7_3</a><br>';
