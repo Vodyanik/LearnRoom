@@ -16,3 +16,4 @@ echo '<a href="/7/3.php">7_3</a><br>';
 echo '<a href="/7/4.php">7_4</a><br>';
 echo '<a href="/7/5.php">7_5</a><br>';
 echo '<a href="/7/6.php">7_6</a><br>';
+echo '<a href="/7/7.php">7_7</a><br>';
