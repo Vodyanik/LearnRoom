@@ -8,11 +8,16 @@
 
 <?php
 
+$count = 0;
+
 for ($i = 100; $i <= 500; $i++) {
 	$one = (int) $i / 100;
 	$two = (int) ($i / 10) % 10;
 	$three = (int) $i % 10;
-		if ($one + $two + $three === 15) {
-			echo $i . " ";
+	$sum = (int) ($one + $two + $three);
+		if ($sum === 15) {
+		echo $i . "  ";
+		$count++;
 		}
 }
+echo "<br>" . "Выведено $count раз";
