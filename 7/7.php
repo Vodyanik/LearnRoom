@@ -16,8 +16,8 @@ for ($i = 100; $i <= 500; $i++) {
 	$three = (int) $i % 10;
 	$sum = (int) ($one + $two + $three);
 		if ($sum === 15) {
-		echo $i . "  ";
-		$count++;
+			echo $i . "  ";
+			$count++;
 		}
 }
 echo "<br>" . "Выведено $count раз";
