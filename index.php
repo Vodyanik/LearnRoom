@@ -1,19 +1,35 @@
 <?php
 
 require_once 'vendor/autoload.php';
+require_once 'helpers.php';
 
-// git status                            это текущее состояние, делаем всегда
-// git checkout master                   перейти на ветку мастер
-// git pull                              чтобы стянуть изменения из ветки (делай только на ветке master)
-// git checkout -b branch_name           создаем ветку и переходим на неё
-// git add .                             класть все изменения в коробочку
-// git commit -m "Example comment"       закрываем коробочку и подписываем её
-// git push -u origin branch_name        отправить ветку в репозиторий (только первый раз когда создаем ветку)
-// git push                              отправить ветку в репозиторий (когда ветка существует)
+echo startHtmlTemplate();
 
-echo '<a href="/7/2.php">7_2</a><br>';
-echo '<a href="/7/3.php">7_3</a><br>';
-echo '<a href="/7/4.php">7_4</a><br>';
-echo '<a href="/7/5.php">7_5</a><br>';
-echo '<a href="/7/6.php">7_6</a><br>';
-echo '<a href="/7/7.php">7_7</a><br>';
+?>
+
+<div class="container-fluid">
+    <div class="row">
+        <?php echo sidebar(); ?>
+        <div class='col-10 text-center'>
+        <?php
+
+        if (isset($_GET['task'])) {
+            $taskFile = __DIR__ . '/' . $_GET['task'] . '.php';
+
+            if (file_exists($taskFile)) {
+                require_once $taskFile;
+            } else {
+                echo "<p>Файл не найден.</p>";
+            }
+        } else {
+            echo "<p>Выберите задание слева.</p>";
+        }
+
+        ?>
+        </div>
+    </div>
+</div>
+
+<?php
+
+echo endHtmlTemplate();
