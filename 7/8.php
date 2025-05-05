@@ -26,4 +26,5 @@ for ($i = 10; $i < 100; $i++) {
         $result['sum2'][] = $i;
     }
 }
+
 print_r($result);
