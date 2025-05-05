@@ -10,8 +10,7 @@
 
 <?php
 
-$sum = 0;
-$sum2 = 0;
+$result = ['sum' => [], 'sum2' => []];
 
 for ($i = 10; $i < 100; $i++) {
     $one = (int) ($i / 10);
@@ -20,10 +19,11 @@ for ($i = 10; $i < 100; $i++) {
     $sum2 = $one + $two;
 
     if ($sum % 13 === 0) {
-        echo 'а:' . $i . " ";
+        $result['sum'][] = $i;
     }
 
     if (($sum2 + $sum2 * $sum2) === $i) {
-        echo 'б:' . $i . " ";
+        $result['sum2'][] = $i;
     }
 }
+print_r($result);
