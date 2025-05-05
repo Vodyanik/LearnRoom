@@ -14,16 +14,14 @@ $sum = 0;
 $sum2 = 0;
 
 for ($i = 10; $i < 100; $i++) {
-    $one = (int) $i / 10;
-    $two = (int) $i % 10;
-    $sum = (int) ($one * $one) + ($two * $two);
+    $one = (int) ($i / 10);
+    $two = $i % 10;
+    $sum = ($one * $one) + ($two * $two);
     $sum2 = $one + $two;
 
     if ($sum % 13 === 0) {
         echo 'а:' . $i . " ";
     }
-
-    //  Выводит числа 38 79 94 97, но правильный ответ 79 и 97, почему лишние выводит?
 
     if (($sum2 + $sum2 * $sum2) === $i) {
         echo 'б:' . $i . " ";
