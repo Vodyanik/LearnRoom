@@ -24,16 +24,16 @@
 			<tbody>
 				<tr>
 					<td> Яблоко </td>
-					<td> 2 </td>
+					<td> 10 </td>
 					<td>
-						<img src="https://kievflower.com.ua/published/publicdata/PENTAGON/attachments/SC/products_pictures/%D0%AF%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8.jpg" width="150">
+						<img src="https://scontent.fiev15-1.fna.fbcdn.net/v/t39.30808-6/486819106_1856785491823848_1649290478170737161_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=109&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=AP_KJ069qLAQ7kNvwHzcI0f&_nc_oc=Adldlrvv6D2MLwKqDYrlLacbz2oXAShRrDy4oWz6oCP4nHbjTHCOvmY5C1_vLsa3gDU&_nc_zt=23&_nc_ht=scontent.fiev15-1.fna&_nc_gid=xaKXz2SrDcyWCbc7DfgtxA&oh=00_AfIDs-lbZ5K8kXOBLzdshvME3Fk13r2b8Y9MhPST2PERng&oe=683428ED" width="150">
 					</td>
 				</tr>
 				<tr>
 					<td> Апельсин </td>
-					<td> 10 </td>
+					<td> 4 </td>
 					<td>
-						<img src="https://freshmart.com.ua/storage/web/cache/product/844/apelysin-chervoniy.jpg?w=912&h=690&fit=resize&q=80&fm=pjpg&t=1644926103&s=f1b8bb334fd55301dd09935fcfad6b04" width="150">
+						<img src="https://murchalkin.ru/post_images/shares/3eb288d4d84bc5c83e4f0b09470a2483-min.jpg" width="150">
 					</td>
 				</tr>
 			</tbody>
