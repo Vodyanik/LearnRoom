@@ -1,0 +1,32 @@
+body {
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html tr {
+    color: blueviolet;
+}
+
+table, th, td {
+    color: purple;
+    border-radius: 25px;
+    text-align: center;
+}
+
+table, th {
+    border: 5px solid lightgreen;
+}
+
+table, td {
+    border: 5px solid darkgreen;
+}
+
+.print-color-red {
+    color: red;
+    font-size: 50px;
+}
+
+img {
+    border-radius: 25px;
+}
